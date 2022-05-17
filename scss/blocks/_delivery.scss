@@ -1,0 +1,45 @@
+.delivery {
+    padding: 51px 0 0 0;
+    &__title {
+        margin: 0 0 20px 0;
+    }
+    &__body {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 37px 0 0 0;
+    }
+    &__block {
+        flex: 0 1 33.333%;
+        padding: 0 3px 57px 0;
+        &_header {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            color: #ec644b;
+            margin: 28px 0 16px 0;
+        }
+        &_text {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.57;
+            text-align: center;
+            color: #3a3a3a;
+            padding: 0 7px;
+        }
+    }
+}
+
+.subheader {
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    color: #2e2e2e;
+    margin: 17px 0 0 0;
+}
+.line {
+    width: 148px;
+    height: 1px;
+    background-color: #ec644b;
+    margin: 0 auto;
+}
+
